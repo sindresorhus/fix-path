@@ -2,9 +2,7 @@
 
 > Fix the `$PATH` on OS X when run from a GUI app
 
-Apps on OS X doesn't inherit the `$PATH` defined in your dotfiles (.bashrc/.bash_profile/.zshrc/etc).
-
-Useful for Electron/NW.js apps so you can spawn binaries.
+Useful for Electron/NW.js apps as GUI apps on OS X doesn't inherit the `$PATH` defined in your dotfiles *(.bashrc/.bash_profile/.zshrc/etc)*.
 
 
 ## Install
@@ -27,6 +25,11 @@ fixPath();
 console.log(process.env.PATH);
 //=> '/usr/local/bin:/usr/bin'
 ```
+
+
+## Related
+
+- [shell-path](https://github.com/sindresorhus/shell-path) - Get the `$PATH` from the shell
 
 
 ## License

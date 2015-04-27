@@ -1,10 +1,12 @@
 'use strict';
+var shellPath = require('shell-path');
+
 module.exports = function () {
 	if (process.platform !== 'darwin') {
 		return;
 	}
 
-	process.env.PATH = [
+	process.env.PATH = shellPath.sync() || [
 		'./node_modules/.bin',
 		'/.nodebrew/current/bin',
 		'/usr/local/bin',

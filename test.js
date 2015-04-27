@@ -4,6 +4,6 @@ var fixPath = require('./');
 
 test(function (t) {
 	fixPath();
-	t.assert(process.env.PATH.indexOf('nodebrew') !== -1, process.env.PATH);
+	t.assert(process.env.PATH.indexOf('/usr/local') !== -1, process.env.PATH);
 	t.end();
 });

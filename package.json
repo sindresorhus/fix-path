@@ -10,7 +10,7 @@
     "url": "sindresorhus.com"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.12.0"
   },
   "scripts": {
     "test": "node test.js"
@@ -27,10 +27,15 @@
     "environment",
     "variable",
     "shell",
+    "sh",
+    "zsh",
     "electron",
     "atom-shell",
     "nwjs"
   ],
+  "dependencies": {
+    "shell-path": "^1.0.0"
+  },
   "devDependencies": {
     "ava": "0.0.4"
   }
