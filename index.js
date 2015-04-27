@@ -7,6 +7,7 @@ module.exports = function () {
 	process.env.PATH = [
 		'./node_modules/.bin',
 		'/.nodebrew/current/bin',
-		'/usr/local/bin'
-	].join(':') + ':' + process.env.PATH;
+		'/usr/local/bin',
+		process.env.PATH
+	].join(':');
 };
