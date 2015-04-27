@@ -1,0 +1,37 @@
+{
+  "name": "fix-path",
+  "version": "0.0.0",
+  "description": "Fix the $PATH on OS X when run from a GUI app",
+  "license": "MIT",
+  "repository": "sindresorhus/fix-path",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "fix",
+    "path",
+    "osx",
+    "env",
+    "var",
+    "environment",
+    "variable",
+    "shell",
+    "electron",
+    "atom-shell",
+    "nwjs"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
