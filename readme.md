@@ -26,6 +26,20 @@ console.log(process.env.PATH);
 //=> '/usr/local/bin:/usr/bin'
 ```
 
+### Async Usage
+
+```js
+var fixPath = require('fix-path');
+
+console.log(process.env.PATH);
+//=> '/usr/bin'
+
+fixPath.async(function(err, newPath) {
+  console.log(process.env.PATH);
+  //=> '/usr/local/bin:/usr/bin'
+});
+
+```
 
 ## Related
 
