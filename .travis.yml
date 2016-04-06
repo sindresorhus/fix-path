@@ -1,10 +1,8 @@
-sudo: false
 language: objective-c
 install:
   - brew update
-  - brew unlink node
-  - brew install node
+  - brew install n
+  - n lts
 script:
-  - node --version
   - npm install
   - npm test

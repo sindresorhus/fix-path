@@ -15,7 +15,7 @@ $ npm install --save fix-path
 ## Usage
 
 ```js
-var fixPath = require('fix-path');
+const fixPath = require('fix-path');
 
 console.log(process.env.PATH);
 //=> '/usr/bin'
@@ -34,4 +34,4 @@ console.log(process.env.PATH);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

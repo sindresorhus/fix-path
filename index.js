@@ -1,7 +1,7 @@
 'use strict';
-var shellPath = require('shell-path');
+const shellPath = require('shell-path');
 
-module.exports = function () {
+module.exports = () => {
 	if (process.platform !== 'darwin') {
 		return;
 	}
