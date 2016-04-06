@@ -34,7 +34,7 @@
     "nwjs"
   ],
   "dependencies": {
-    "shell-path": "^1.0.0"
+    "shell-path": "^2.0.0"
   },
   "devDependencies": {
     "ava": "*"
