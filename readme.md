@@ -1,8 +1,8 @@
 # fix-path [![Build Status](https://travis-ci.org/sindresorhus/fix-path.svg?branch=master)](https://travis-ci.org/sindresorhus/fix-path)
 
-> Fix the `$PATH` on OS X when run from a GUI app
+> Fix the `$PATH` on macOS when run from a GUI app
 
-Useful for Electron/NW.js apps as GUI apps on OS X doesn't inherit the `$PATH` defined in your dotfiles *(.bashrc/.bash_profile/.zshrc/etc)*.
+Useful for Electron/NW.js apps as GUI apps on macOS doesn't inherit the `$PATH` defined in your dotfiles *(.bashrc/.bash_profile/.zshrc/etc)*.
 
 
 ## Install
