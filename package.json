@@ -1,46 +1,41 @@
 {
-  "name": "fix-path",
-  "version": "2.1.0",
-  "description": "Fix the $PATH on macOS when run from a GUI app",
-  "license": "MIT",
-  "repository": "sindresorhus/fix-path",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "fix",
-    "path",
-    "macos",
-    "osx",
-    "env",
-    "var",
-    "environment",
-    "variable",
-    "shell",
-    "sh",
-    "zsh",
-    "electron",
-    "nwjs"
-  ],
-  "dependencies": {
-    "shell-path": "^2.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "fix-path",
+	"version": "2.1.0",
+	"description": "Fix the $PATH on macOS when run from a GUI app",
+	"license": "MIT",
+	"repository": "sindresorhus/fix-path",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"fix",
+		"path",
+		"macos",
+		"osx",
+		"env",
+		"environment",
+		"variable",
+		"shell",
+		"sh",
+		"zsh",
+		"electron"
+	],
+	"dependencies": {
+		"shell-path": "^2.0.0"
+	},
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"xo": "^0.24.0"
+	}
 }

@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from './';
+import fixPath from '.';
 
-test(t => {
-	m();
-	t.true(process.env.PATH.indexOf('/usr/local') !== -1);
+test('main', t => {
+	fixPath();
+	t.true(process.env.PATH.includes('/usr/local'));
 });
