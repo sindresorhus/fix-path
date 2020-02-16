@@ -4,13 +4,14 @@
 	"description": "Fix the $PATH on macOS when run from a GUI app",
 	"license": "MIT",
 	"repository": "sindresorhus/fix-path",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=10"
 	},
 	"scripts": {
 		"test": "xo && ava && tsd"
@@ -33,12 +34,11 @@
 		"electron"
 	],
 	"dependencies": {
-		"shell-path": "^2.0.0"
+		"shell-path": "^2.1.0"
 	},
 	"devDependencies": {
 		"ava": "^1.4.1",
 		"tsd": "^0.11.0",
-		"xo": "^0.24.0"
-	},
-	"types": "index.d.ts"
+		"xo": "^0.26.1"
+	}
 }

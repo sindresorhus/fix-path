@@ -4,13 +4,11 @@
 
 Useful for Electron apps as GUI apps on macOS doesn't inherit the `$PATH` defined in your dotfiles *(.bashrc/.bash_profile/.zshrc/etc)*.
 
-
 ## Install
 
 ```
 $ npm install fix-path
 ```
-
 
 ## Usage
 
@@ -25,7 +23,6 @@ fixPath();
 console.log(process.env.PATH);
 //=> '/usr/local/bin:/usr/bin'
 ```
-
 
 ## Related
 
