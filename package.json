@@ -1,6 +1,6 @@
 {
 	"name": "fix-path",
-	"version": "2.1.0",
+	"version": "3.0.0",
 	"description": "Fix the $PATH on macOS when run from a GUI app",
 	"license": "MIT",
 	"repository": "sindresorhus/fix-path",
