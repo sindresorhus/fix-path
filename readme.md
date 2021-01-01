@@ -1,4 +1,4 @@
-# fix-path [![Build Status](https://travis-ci.org/sindresorhus/fix-path.svg?branch=master)](https://travis-ci.org/sindresorhus/fix-path)
+# fix-path
 
 > Fix the `$PATH` on macOS when run from a GUI app
 
