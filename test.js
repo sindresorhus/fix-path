@@ -1,5 +1,6 @@
+import process from 'node:process';
 import test from 'ava';
-import fixPath from '.';
+import fixPath from './index.js';
 
 test('main', t => {
 	fixPath();

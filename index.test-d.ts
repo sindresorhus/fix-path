@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import fixPath = require('.');
+import fixPath from './index.js';
 
 expectType<void>(fixPath());

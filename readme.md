@@ -2,7 +2,7 @@
 
 > Fix the `$PATH` on macOS when run from a GUI app
 
-Useful for Electron apps as GUI apps on macOS doesn't inherit the `$PATH` defined in your dotfiles *(.bashrc/.bash_profile/.zshrc/etc)*.
+Useful for Electron apps as GUI apps on macOS do not inherit the `$PATH` defined in your dotfiles *(.bashrc/.bash_profile/.zshrc/etc)*.
 
 ## Install
 
@@ -13,7 +13,7 @@ $ npm install fix-path
 ## Usage
 
 ```js
-const fixPath = require('fix-path');
+import fixPath from 'fix-path';
 
 console.log(process.env.PATH);
 //=> '/usr/bin'

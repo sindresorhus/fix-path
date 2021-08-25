@@ -1,15 +1,15 @@
-'use strict';
-const shellPath = require('shell-path');
+import process from 'node:process';
+import {shellPathSync} from 'shell-path';
 
-module.exports = () => {
+export default function fixPath() {
 	if (process.platform !== 'darwin') {
 		return;
 	}
 
-	process.env.PATH = shellPath.sync() || [
+	process.env.PATH = shellPathSync() || [
 		'./node_modules/.bin',
 		'/.nodebrew/current/bin',
 		'/usr/local/bin',
-		process.env.PATH
+		process.env.PATH,
 	].join(':');
-};
+}
