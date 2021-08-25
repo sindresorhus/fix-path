@@ -2,7 +2,7 @@ import process from 'node:process';
 import {shellPathSync} from 'shell-path';
 
 export default function fixPath() {
-	if (process.platform !== 'darwin') {
+	if (process.platform === 'win32') {
 		return;
 	}
 

@@ -1,8 +1,8 @@
 # fix-path
 
-> Fix the `$PATH` on macOS when run from a GUI app
+> Fix the `$PATH` on macOS and Linux when run from a GUI app
 
-Useful for Electron apps as GUI apps on macOS do not inherit the `$PATH` defined in your dotfiles *(.bashrc/.bash_profile/.zshrc/etc)*.
+Useful for Electron apps as GUI apps on macOS and Linux do not inherit the `$PATH` defined in your dotfiles *(.bashrc/.bash_profile/.zshrc/etc)*.
 
 ## Install
 
