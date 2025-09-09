@@ -6,8 +6,8 @@ Useful for Electron apps as GUI apps on macOS and Linux do not inherit the `$PAT
 
 ## Install
 
-```
-$ npm install fix-path
+```sh
+npm install fix-path
 ```
 
 ## Usage
