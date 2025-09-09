@@ -39,7 +39,8 @@
 		"electron"
 	],
 	"dependencies": {
-		"shell-path": "^3.1.0"
+		"shell-path": "^3.1.0",
+		"strip-ansi": "^7.1.2"
 	},
 	"devDependencies": {
 		"ava": "^6.4.1",
