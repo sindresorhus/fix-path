@@ -24,6 +24,10 @@ console.log(process.env.PATH);
 //=> '/usr/local/bin:/usr/bin'
 ```
 
+## Known issues
+
+- Packaged Electron apps launched from Finder [may not quit properly](https://github.com/sindresorhus/fix-path/issues/11). This is an Electron bug where child processes spawned during startup are not cleaned up correctly in that context.
+
 ## Related
 
 - [shell-path](https://github.com/sindresorhus/shell-path) - Get the `$PATH` from the shell
